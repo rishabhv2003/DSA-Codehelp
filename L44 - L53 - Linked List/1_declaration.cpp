@@ -22,6 +22,7 @@ void insertAtHead(node *&head, int d)
 }
 int main()
 {
+   
     node *obj = new node(10);
     node *head = obj;
     insertAtHead(head, 20);
