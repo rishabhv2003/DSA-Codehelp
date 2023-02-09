@@ -12,7 +12,7 @@ int main()
     s.insert(4);
     s.insert(2);
 
-    for (int i : s)
+    for (auto i : s)
     {
         cout<<i<<" ";
     }
